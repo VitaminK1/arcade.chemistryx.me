@@ -1,0 +1,11 @@
+.alert {
+    padding: .75rem 0;
+
+    p {
+        font-weight: 500;
+    }
+}
+
+.alert-warning {
+    background-color: $warning;
+}

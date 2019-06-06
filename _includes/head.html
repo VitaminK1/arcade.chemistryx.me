@@ -1,0 +1,12 @@
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+{% assign meta_title = site.title %}
+{% assign meta_desc = site.description | strip_html %}
+{% assign meta_url = site.url %}
+{% assign meta_type = 'website' %}
+<title>{{ page.title }} - {{ meta_title }}</title>
+
+<link rel="stylesheet" href="{{ site.resources_url }}/css/global.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">

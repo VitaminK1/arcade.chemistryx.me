@@ -1,0 +1,24 @@
+@import "variables";
+
+.banner {
+    background-image: url('../images/bg-min.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // fallback
+    background-color: $base-color;
+
+    .content {
+        padding: 4.5rem 0;
+        .title, .subtitle {
+            color: $background;
+            text-align: center;
+        }
+        .title {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 1rem;
+        }
+    }
+}

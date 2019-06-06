@@ -1,0 +1,21 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import "variables";
+@import "banner";
+@import "alert";
+@import "badge";
+
+body {
+    background-color: $background;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+h2 {
+    font-weight: 700;
+}
+
+.content {
+    line-height: 1.75;
+}

@@ -1,0 +1,13 @@
+.badge {
+    padding: .25rem .4rem;
+    font-weight: 700;
+    font-size: 75%;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.badge-success {
+    color: $base-color;
+    background-color: $success;
+}
