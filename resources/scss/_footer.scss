@@ -1,0 +1,13 @@
+footer {
+    background-color: $base-color;
+    padding: 2rem 0;
+    .copyright {
+        color: $gray;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        span {
+            font-weight: 900;
+        }
+    }
+}

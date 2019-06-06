@@ -3,9 +3,10 @@
 @import "banner";
 @import "alert";
 @import "badge";
+@import "footer";
 
 body {
-    background-color: $background;
+    background-color: $white;
     font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -19,3 +20,30 @@ h2 {
 .content {
     line-height: 1.75;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    a {
+        color: $green;
+        text-decoration: none;
+        &:active {
+            color: $green-heavy;
+        }
+    }
+}
+
+@mixin selection {
+    ::selection { @content; }
+    ::-moz-selection { @content; }
+  }
+  
+  @include selection {
+    background: $green;
+    color: $white;
+    text-shadow: none;
+  }
