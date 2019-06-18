@@ -1,0 +1,53 @@
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: $white;
+    border: 1px solid $gray;
+    border-radius: .25rem;
+}
+
+.thumbnail-guide {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 270px;
+    text-align: left;
+}
+
+.guide-image {
+    height: 218px;
+    margin: 0;
+    background-color: $gray;
+    background-size: 260px 260px;
+}
+
+.guide-image-default {
+    background: url('../images/default.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color: $gray;
+}
+
+.guide-banner {
+    height: 40px;
+    background-color: rgba($color: $white, $alpha: 0.7);
+    padding-left: 6px;
+    overflow: hidden;
+}
+
+.guide-name {
+    font-size: 1rem;
+    color: $base-color;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.guide-desc {
+    display: block;
+    margin-top: -.95rem;
+    font-size: .25rem;;
+    color: $gray-heavy;
+}

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "규칙"
-last_update: 2019년 6월 6일
+last_update: 2019년 6월 9일
 ---
 
 <section class="banner">
     <div class="container">
         <div class="content">
-            <h1 class="title">규칙</h1>
+            <h1 class="title">{{ page.title }}</h1>
             <h2 class="subtitle">마지막 업데이트: {{ page.last_update }}</h2>
         </div>
     </div>
@@ -37,6 +37,7 @@ last_update: 2019년 6월 6일
                     <li>관리자를 사칭하지 않습니다.</li>
                     <li>본 서비스의 이슈나 버그를 공개적으로 유포하거나 악용하지 않습니다. 버그를 발견한 경우 디스코드 <strong>{{ site.discord }}</strong>으로 제보해주십시오.</li>
                     <li>본 서비스의 관리자가 요청하는 모든 지시를 따릅니다. 만약 부당하다고 생각되는 경우 디스코드 <strong>{{ site.discord }}</strong>을 통해 항소할 수 있습니다.</li>
+                    <li>친목은 신규 유저를 배척할 수 있고 신규 유저가 아니더라도 친목을 하는 무리와 그렇지 않은 무리로 나눠지는 경우 그 무리에 속하지 않은 인원에게 소외감을 줄 수 있어 서버의 발전을 저해할 수 있는 활동이므로 금지됩니다. 단, 귓속말을 통한 친목 활동은 가능합니다.</li>
                 </ol>
             </div>
         </div>
@@ -46,7 +47,7 @@ last_update: 2019년 6월 6일
                 <ol>
                     <li>다른 플레이어에게 팀을 떠나거나 서버 접속 종료를 강요하는 채팅을 보내서는 안 됩니다.</li>
                     <li>다른 사람들에게 특정 플레이어를 신고하도록 조장해서는 안 됩니다.</li>
-                    <li>공개 채팅에 아르카 네트워크 서비스의 일부가 아닌 서버를 입장하도록 권유하거나 링크를 걸어서는 안됩니다. (개인 채팅을 통한 공유는 가능합니다.)</li>
+                    <li>공개 채팅에 아르카 네트워크 서비스의 일부가 아닌 서버를 입장하도록 권유하거나 링크를 걸어서는 안됩니다. (귓속말을 통한 공유는 가능합니다.)</li>
                     <span class="badge badge-warning">참고</span>
                     <small>모든 채팅 메시지는 기록됩니다.</small>
                     <br />

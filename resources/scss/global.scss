@@ -5,6 +5,8 @@
 @import "badge";
 @import "footer";
 @import "button";
+@import "thumbnail";
+@import "staff";
 
 body {
     background-color: $white;
@@ -20,21 +22,14 @@ h2 {
 
 .content {
     line-height: 1.75;
+    padding-bottom: 15vh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    a {
-        color: $green;
-        text-decoration: none;
-        &:active {
-            color: $green-heavy;
-        }
+a {
+    color: $green;
+    text-decoration: none;
+    &:active {
+        color: $green-heavy;
     }
 }
 
@@ -48,3 +43,9 @@ p {
     color: $white;
     text-shadow: none;
   }
+
+hr {
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid $gray;
+}
