@@ -2,7 +2,3 @@ administrators:
 - name: "ChemistryX"
   role: "Owner"
   social: "ChemistryX#4163"
-advisors:
-- name: "VitaminK1"
-  role: "Advisor"
-  social: ""
