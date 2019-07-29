@@ -10,13 +10,13 @@ title: 가이드
         </div>
     </div>
 </section>
-<section class="info">
+<!-- <section class="info">
     <div class="alert alert-warning">
         <div class="container">
             <p><span class="badge badge-default">참고</span> 아직 문서가 완성되지 않았습니다.</p>
         </div>
     </div>
-</section>
+</section> -->
 <section class="content">
     <div class="container">
         <h2>일반 가이드</h2>
